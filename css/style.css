@@ -1,5 +1,4 @@
 * {
-  border: none;
   box-sizing: border-box;
   background-color: rgb(210, 180, 140); /* Tan */
 }
@@ -48,6 +47,7 @@ body{
     display: block;  
 }
 
+
 a {
   text-decoration: none;
   color: darkred;
@@ -59,15 +59,16 @@ a:hover {
 }
 
 
-li {
-  display: block;
-  border: 2pt darkred solid;
-  padding: 10pt;
-}
 
 
 .caption {
   font-size: 0.95em;
+}
+
+li {
+  display: block;
+  border: 2pt darkred solid;
+  padding: 10pt;
 }
 
 /* BEGIN FOOTER */
@@ -80,4 +81,3 @@ li {
   bottom: 0;
   font-size: 0.95em;
 }
-
