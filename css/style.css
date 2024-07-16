@@ -55,25 +55,15 @@ a {
 
 
 a:hover {
-  color: black;
-  background-color: darkred;
   text-decoration: underline;
-  text-decoration-color: black;
 }
 
 
 li {
-  display: inline;
-  border: 2pt black solid;
-  padding: 0pt;
+  display: block;
+  border: 2pt darkred solid;
+  padding: 10pt;
 }
-
-li:hover {
-  border-color: black;
-  background-color: darkred;
-  transition: background-color 0.3s ease, opacity 0.3s ease;
-}
-
 
 
 .caption {
