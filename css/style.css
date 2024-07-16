@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  border: black 1pt solid;
+  background-color: rgb(210, 180, 140); /* Tan */
+}
+
+body{
+  font-family: "josefin Sans", sans-serif;
+  font-size: 1em;
+}
+
+
+#header {
+  color: darkred;
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 50pt;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+.title, #title1 {
+  color: darkgoldenrod;
+  font-family: Papyrus;
+  text-align: center;
+  font-size: 30pt;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+[class*="col"] {
+          float: left;
+  /* padding: 15px; */
+        }
+
+
+.row::after {
+
+}
+
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+
+a:hover {
+  color: black;
+  background-color: darkred;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+
+li {
+  display: inline;
+  border: 2pt black solid;
+  padding: 0pt;
+}
+
+li:hover {
+  border-color: black;
+  background-color: darkred;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+
+
+.caption {
+  font-size: 0.95em;
+}
+
+/* BEGIN FOOTER */
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  font-size: 0.95em;
+}
+
